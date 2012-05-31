@@ -1,0 +1,8 @@
+(defun life ()
+    (loop
+       (let ((n (read)))
+          (if (= n 42)
+                 (return-from life)
+              (format t "~D~%" n)))))
+                
+(life)
